@@ -11,9 +11,9 @@ def play_game(player_choice):
         (player_choice == "paper" and computer_choice == "rock") or
         (player_choice == "scissors" and computer_choice == "paper")
     ):
-        return "You won!"
+        return "You win!"
     else:
-        return "Computer won!"
+        return "Computer wins!"
 
 player_choice = input("Enter your choice (rock, paper, scissors): ")
 print(play_game(player_choice))
